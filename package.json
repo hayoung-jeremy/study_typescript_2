@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "prestart": "tsc"
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
   },
   "repository": {
     "type": "git",
@@ -21,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/hayoung-jeremy/study_typescript_2/issues"
   },
-  "homepage": "https://github.com/hayoung-jeremy/study_typescript_2#readme"
+  "homepage": "https://github.com/hayoung-jeremy/study_typescript_2#readme",
+  "devDependencies": {
+    "tsc-watch": "^4.5.0"
+  }
 }
