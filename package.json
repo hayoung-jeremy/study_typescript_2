@@ -1,0 +1,25 @@
+{
+  "name": "study_typescript_2",
+  "version": "1.0.0",
+  "description": "learning typescript by building a simple block-chain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "prestart": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayoung-jeremy/study_typescript_2.git"
+  },
+  "keywords": [
+    "typescript",
+    "block-chain"
+  ],
+  "author": "Ha young Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hayoung-jeremy/study_typescript_2/issues"
+  },
+  "homepage": "https://github.com/hayoung-jeremy/study_typescript_2#readme"
+}
