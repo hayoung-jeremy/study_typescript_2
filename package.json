@@ -23,5 +23,8 @@
   "homepage": "https://github.com/hayoung-jeremy/study_typescript_2#readme",
   "devDependencies": {
     "tsc-watch": "^4.5.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
   }
 }
